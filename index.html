@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Image Editor</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Cairo:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.tailwindcss.com?plugins=forms,container-queries">
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x1080'); /* Replace with your own background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-family: 'Cairo', sans-serif;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .button {
+            background-color: #ff4c4c;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s, transform 0.3s;
+            display: inline-block;
+        }
+        .button:hover {
+            background-color: #ff1a1a;
+            transform: scale(1.05);
+        }
+        .button:active {
+            transform: scale(0.98);
+        }
+        .button:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>Welcome to the Image Editor</h1>
+            <p>Your one-stop solution for editing images with style.</p>
+            <a href="enter-code.html" class="button">Enter Code</a>
+        </div>
+    </div>
+</body>
+</html>
